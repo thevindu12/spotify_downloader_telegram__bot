@@ -8,7 +8,7 @@ import os
 if 'BOT_TOKEN' in os.environ:
     token = os.environ.get('BOT_TOKEN')
 else:
-    token = 'token bot'
+    token = '1916718297:AAGT2r20hjvE-JoF5t_6ZcOfHZ40KBSz-xY'
 
 bot = telepot.Bot(token)
 
